@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:300|Pacifico');
+
+h1, h2, h3 {
+    font-family: 'Pacifico', cursive;
+    color: #00BDFF;
+}
+
+p, li {
+    font-family: 'Open Sans', sans-serif;
+    color: #CFC5B6;
+}
+
+body {
+    background: url('../images/abstract-mosaic-background.png')
+    no-repeat center center fixed;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: #403E3E;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+.main-content {
+    background-color: #403E3E;
+    padding: 10px;
+    border-top: 2px solid #1F1E1E;
+}
+
+header img {
+    width: 45%;
+    border-radius: 15px;
+}
+
+.main-content ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-content ul li {
+    padding: 10px;
+    display: inline;
+}
+
+a {
+    color: #00BDFF;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-content p {
+    margin: 10px 40px;
+}
+
+.main-content h2 {
+    margin: 10px 40px;
+}
+
+#projects {
+    background-color: #212020;
+    text-align: center;
+}
+
+.project {
+    width: 30%;
+    display: inline-block;
+    background-color: #212020;
+    margin: 1.66%;
+    border-radius: 10px;
+    float: left;
+}
+
+.project img {
+    max-width: 100%;
+}
+
